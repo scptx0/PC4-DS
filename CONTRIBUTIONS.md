@@ -12,3 +12,15 @@
 
 - 2025-06-24:
     - Realicé el video correspondiente al sprint 1. No hay commit de ello.
+
+## Sprint 2
+
+- 2025-06-27 y 2025-06-28:
+    - **Rama feat/reporte-drift**
+        - Implementé una mejora para el script que compara los estados. Ahora, se tienen cuenta dos atributos más: `container_name` (deployment) y `type` (service). Además, el reporte se imprime como una tabla ASCII en la terminal.
+            - Commits:
+                - `feat(py): (Issues #7 #8) comparar más atributos y generar tabla ASCII` ([4aa3df7](https://github.com/Grupo-9-CC3S2/Proyecto-9-PC4/commit/4aa3df7bd5f33b5fa161252f8e364f4365ba8d0c))
+                - `refactor(py): unificar estilo (PEP8) para la mejora de reporte de drift` ([dd6b2c3](https://github.com/Grupo-9-CC3S2/Proyecto-9-PC4/commit/dd6b2c324d5a863a530530cc11140ecf2657f513))
+
+    - Pull request grupal: [#11](https://github.com/Grupo-9-CC3S2/Proyecto-9-PC4/pull/11)
+    - Realicé el video correspondiente al sprint 2. No hay commit de ello
